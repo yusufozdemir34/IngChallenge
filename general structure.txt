@@ -1,0 +1,26 @@
+src
+├── main
+│   ├── java
+│   │   └── com
+│   │       └── yozdemir
+│   │           └── stockexchange
+│   │               ├── StockExchangeApplication.java
+│   │               ├── DataInitializer.java
+│   │               ├── controller
+│   │               │   └── StockExchangeController.java
+│   │               ├── model
+│   │               │   ├── Stock.java
+│   │               │   └── StockExchange.java
+│   │               ├── repository
+│   │               │   ├── StockExchangeRepository.java
+│   │               │   └── StockRepository.java
+│   │               └── service
+│   │                   └── StockExchangeService.java
+│   └── resources
+│       ├── application.properties
+│
+└── test
+   └── java
+      └── com
+         └── stockexchange
+              └── StockExchangeApplicationTests.java
